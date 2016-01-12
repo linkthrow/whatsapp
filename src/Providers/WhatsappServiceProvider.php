@@ -7,13 +7,6 @@ use File;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 use MGP25WhatapiEvents;
-use Tmv\WhatsApi\Client;
-use Tmv\WhatsApi\Entity\Identity;
-use Tmv\WhatsApi\Entity\Phone;
-use Tmv\WhatsApi\Message\Action;
-use Tmv\WhatsApi\Service\LocalizationService;
-use Tmv\WhatsApi\Event\MessageReceivedEvent;
-use Tmv\WhatsApi\Message\Received;
 use WhatsProt;
 use LinkThrow\Whatsapp\Clients\WhatsappMGP25Client;
 
