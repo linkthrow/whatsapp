@@ -1,10 +1,10 @@
-<?php namespace Williamson\Larawhatsapi\Clients;
+<?php namespace LinkThrow\Whatsapp\Clients;
 
 use Config;
 use WhatsProt;
-use Williamson\Larawhatsapi\Repository\SMSMessageInterface;
+use LinkThrow\Whatsapp\Repository\SMSMessageInterface;
 
-class LaraWhatsapiMGP25Client implements SMSMessageInterface {
+class WhatsappMGP25Client implements SMSMessageInterface {
 
     protected $events;
 
@@ -25,8 +25,8 @@ class LaraWhatsapiMGP25Client implements SMSMessageInterface {
     {
         $this->whatsProt = $whatsProt;
 
-        $account        = Config::get("larawhatsapi::useAccount");
-        $this->password = Config::get("larawhatsapi::accounts.$account.password");
+        $account        = Config::get("whatsapp.useAccount");
+        $this->password = Config::get("whatsapp.accounts.$account.password");
     }
 
     public function __destruct()
