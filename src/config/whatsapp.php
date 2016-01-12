@@ -4,7 +4,7 @@ return array(
     'debug'            => true,
     'useAccount'       => 'default',
     'nextChallengeDir' => '/home/user/whatsapi/nextChallengefolder', //Must be writable by webserver
-    'fork'             => 'TMV', // Which fork of the WhatsApi project do you wish to use?
+    'fork'             => 'MGP25', // Which fork of the WhatsApi project do you wish to use?
                                  // Only 2 options, TMV or MGP25.
                                  // https://github.com/thomasvargiu/TmvWhatsApi
                                  // https://github.com/mgp25/WhatsAPI-Official
