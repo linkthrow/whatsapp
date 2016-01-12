@@ -1,5 +1,5 @@
 {
-    "name": "LinkThrow/Whatsapp",
+    "name": "linkThrow/whatsapp",
     "description": "A laravel Wrapper for WhatsApi",
     "license": "MIT",
     "keywords": [
