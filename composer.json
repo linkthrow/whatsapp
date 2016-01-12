@@ -1,5 +1,5 @@
 {
-    "name": "williamson/larawhatsapi",
+    "name": "LinkThrow/Whatsapp",
     "description": "A laravel Wrapper for WhatsApi",
     "license": "MIT",
     "keywords": [
@@ -11,17 +11,21 @@
         {
             "name": "Jonathan Williamson",
             "email": "jonnywilliamson@gmail.com"
+        },
+        {
+            "name": "Hussan Choudhry",
+            "email": "hussan@uselinkthrow.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.2.*",
+        "laravel/framework": ">=5.1.1",
         "thomasvargiu/tmv-whatsapi": "0.*",
         "mgp25/whatsapi": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Williamson\\Larawhatsapi\\": "src/"
+            "LinkThrow\\Whatsapp\\": "src/"
         }
     },
     "minimum-stability": "dev",

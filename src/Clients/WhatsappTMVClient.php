@@ -5,7 +5,7 @@ use Tmv\WhatsApi\Message\Action\ChatState;
 use Tmv\WhatsApi\Message\Action\MessageText;
 use Williamson\Larawhatsapi\Repository\SMSMessageInterface;
 
-class LaraWhatsapiTMVClient implements SMSMessageInterface {
+class WhatsappTMVClient implements SMSMessageInterface {
 
     /**
      * @var Client

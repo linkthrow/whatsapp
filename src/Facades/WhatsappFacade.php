@@ -1,12 +1,12 @@
-<?php namespace Williamson\Larawhatsapi\Facades;
+<?php namespace LinkThrow\Whatsapp\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class LaraWhatsapiFacade extends Facade {
+class WhatsappFacade extends Facade {
 
     protected static function getFacadeAccessor()
     {
-        return 'Williamson\Larawhatsapi\Repository\SMSMessageInterface';
+        return 'LinkThrow\Whatsapp\Repository\SMSMessageInterface';
     }
 
     /**
