@@ -20,7 +20,7 @@
     "require": {
         "php": ">=5.4.0",
         "laravel/framework": ">=5.1.1",
-        "mgp25/whatsapi": "dev-master"
+        "whatsapp/chat-api": "dev-master"
     },
     "autoload": {
         "psr-4": {
